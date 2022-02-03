@@ -1,0 +1,71 @@
+.feeds {
+    border-left: solid 4px #e9e6e6;
+    border-right: solid 4px #e6e5e5;
+    border-bottom: solid 4px #ebe9e9;
+    border-top: solid 4px #ebe9e9;
+}
+.content {
+    display: inline-block; 
+    margin-right: 230px;
+}
+
+.titik {
+    float: right;
+    position: relative;
+    left: 100px;
+    padding: 2%;
+}
+
+.icon-share {
+    margin-right: 30px;
+}
+
+.icon-share i {
+    margin-right: 10px;
+}
+
+.comment {
+    background-color: #ebe7e7;
+}
+.mainmenubtn {
+    border: none;
+    cursor: pointer;
+    background-color: #ebe7e7;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    min-width: 200px;
+}
+.dropdown-child a {
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+.talk {
+    margin-left: 55px;
+}
+
+.post {
+    background-color: rgb(80, 183, 209);
+    color: white;
+    padding: 10px;
+    margin-left: 60px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+
+.reply {
+    margin-left: 55px;
+}
